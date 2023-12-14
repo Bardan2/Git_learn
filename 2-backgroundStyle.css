@@ -1,0 +1,66 @@
+/* Background In CSS (PauseTimeDuration 1:06:33 ) */  
+/* Background Properties: */
+/* 1 background-color : Sets the background color of an element.
+Example: background-color; #ff5733; */
+
+
+/* 2 background-image : Specifies an image to be used as the background.
+Example: background-image : url('image.jpg');  */
+
+
+/* 3 background-repeat : Determines how the background image repeats. */
+/* Values: repeat, repeat-x, repeat-y, no-repeat.
+Example: background-repeat: repeat-x; */
+
+
+/* 4 background-position : Sets the starting position of the background image. */
+/* Values: Coordinates like top left, center center, bottom right, percentages, or lenght values. */
+/* example: background-position: center center; */
+
+/* 5 background-size : Defines the size of the background image. */
+/* Values: auto, cover, contain, percentages, or length values. */
+/* Example: background-size: cover */
+
+/* 6 background-attachment : Specifies if the background image scrolls with the content;  */
+/* Values: Scroll, fixed, local */
+/* Example: background-attachment: fixed; */
+
+
+
+/* background Property in CSS */
+
+/* background-blend-mode: Applies blending modes to the background image and color */
+/* Values: Various blend mode keywords like multiply, screen, overlay */
+/* Example: background-blend: multiply; */
+
+/* background-color: hsl(0, 0%, 94%);   ==>  this is Modern color */
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 94%);    
+    background-image: url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1702339200&semt=sph'), url('https://img.freepik.com/premium-photo/mountain-lake-with-tree-stump-foreground-mountain-background_948735-127083.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-position: center; */
+    background-blend-mode: difference;
+}
+
+
+/* Interview Questions */
+/* 1) How can you set a background imahe for an element using CSS? */
+/* ans=> You can set a background image using the background-image property, like this: */
+/* background-image: url('image,jpg') */
+
+
+
+/* 2) How can you make a background image cover the entire element without distortion? */
+/* You can use background-size: cover; to make the background image cover the entire element while maintaining its aspect ratio. This ensures that the image fills the container without distortion. */
+
+
+/* 3) How can you apply multiple background images to a single element? */
+/* background-image property and using a comma to separate them. For example: */
+/* css background-image: url('image1.jpg'), url('image2,jpg'); */
+
+/* 4) What is the property that is used for controlling image-scroll? */
+/* ans==> background-attachment */

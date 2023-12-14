@@ -1,0 +1,42 @@
+
+
+/* RGBA Color: RGBA is similar to RGB but includes an alpha channel for opacity control. */
+
+/* alpha - 0 - 1 = full */
+
+/* h1 { */
+    /* color: rgba(255, 0, 0, 1); */
+    /* color: rgba(255, 0, 0, 0.25); */
+/* } */
+
+
+/* HSL Colors : HSL (Hue, Saturation, Lightness) values provide a way to specify colors bases on their hue, saturation, and lightness. */
+
+h1 {
+    color: hsl(16, 100%, 50%);
+}
+
+/* 2: How can you make the text color of an element fully transparent using CSS? Provide an example. */
+/* ans: There 2 way to make transparent using CSS: */
+/* 1 way: decreasing the rgba(255,0,0,0) (decreasing the value of alpha 0 from 1) */
+/* 2 way: to writing "transparent" value in color property */
+
+
+/* 3: How can you set the text color of an element to match the current color of another CSS property within the same element? */
+
+.hero-section {
+    color: rgb(16, 225, 47);
+}
+
+p{
+    color: currentColor;
+}
+
+
+/* Graphic Desginer -CSS */
+/* 1: Hue: A pure color */
+/* 2: Tint: A pure color with just white added */
+/* 3: Shade: A pure color with just black added */
+/* 4: Tone: A pure color with just gray added */
+
+
