@@ -1,0 +1,29 @@
+/* Time pause at 01:30:00
+
+The role of Units in CSS
+Absolute Lengths (j xa tei rahanxa)
+
+1) Pexels (px)
+2) Inches (in)
+3) Points (pt)
+
+
+Reletive Lengths (tara yo chai afno anusar change vairahanxa)
+4) em
+5) Root em (rem)
+6) Percecntage (%) */
+
+
+/* Absolute Lengths: The absolute length units are fixed and a length expressed in any of these will appear as exactly tat size. */
+
+/* Relative: Lengths: Relative length units specify a length relative to another length property. Relative length units scale better between different rendering medium. */
+
+/* Pixels (px): px is an absolute unit of measurment in css, representing the smallest unit of screen space. It provide a fixed and consistent size on all devices and screen. */
+
+/* Percentages (%): Percentages are relative units based on the parent element's size or the containing block. Widely used in creating responsive layouts.
+Example: width: 50%; sets an element's width to 50% of its parent's width */
+
+/* Em (em): em is a relative units that is calculated based on the font size of the parent elements.
+when you set an element's size in em, it's relative to the font size of its nearest parent with a specified font size. */
+
+/* Root Em (rem): .... */
